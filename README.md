@@ -23,7 +23,8 @@ It combines advanced linguistic analysis techniques (LIWC, SAGE) and evaluates t
 ## Methodology
 
 - **Dataset**:  
-  - Human-written true and false news articles in Portuguese.  
+  - Human-written true and false news articles in Portuguese, retrieved directly from the 
+[fake-news-pt-eu repository](https://github.com/ro-afonso/fake-news-pt-eu) (Afonso & Rosas, 2024). 
   - AI-generated texts based on narrative prompts using GPT-4o, Mistral Large, and Llama 3.3 70B.
 
 - **Linguistic Analysis Tools**:  
