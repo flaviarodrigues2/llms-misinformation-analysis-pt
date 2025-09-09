@@ -29,7 +29,10 @@ It combines advanced linguistic analysis techniques (LIWC, SAGE) and evaluates t
 
 - **Linguistic Analysis Tools**:  
   - [LIWC] for psychological and stylistic categories  
+    - This project uses the [LIWC2015 Portuguese dictionary](https://github.com/LaCAfe/LIWC2015pt).  
+    - The dictionary file itself is not included in this repository. Users must download it from the official source and update the path in the code.  
   - [SAGE] for sparse additive generative modeling
+
 
 - **Detection Evaluation**:  
   - Tested a pre-trained misinformation classifier on both human and AI-generated content.
