@@ -38,14 +38,13 @@ It combines advanced linguistic analysis techniques (LIWC, SAGE) and evaluates t
 ## Author
 
 **Flávia Rodrigues**  
-Master’s in Data Science and Advanced Analytics – NOVA Information Management School 
-Email: flaviaafrodrigues@gmail.com 
-LinkedIn: www.linkedin.com/in/flávia-rodrigues-b51a0529a
+- Master’s in Data Science and Advanced Analytics – NOVA Information Management School 
+- Email: flaviaafrodrigues@gmail.com 
+- LinkedIn: www.linkedin.com/in/flávia-rodrigues-b51a0529a
 
 ---
 
 ## Contact
 
-Interested in collaborating or want to know more about the project?  
 Feel free to open an issue or send me a message!
 
