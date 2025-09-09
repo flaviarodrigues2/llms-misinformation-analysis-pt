@@ -28,16 +28,16 @@ It combines advanced linguistic analysis techniques (LIWC, SAGE) and evaluates t
   - AI-generated texts based on narrative prompts using GPT-4o, Mistral Large, and Llama 3.3 70B.
 
 - **Linguistic Analysis Tools**:  
-  - [LIWC] for psychological and stylistic categories  
-    - This project uses the [LIWC2015 Portuguese dictionary](https://github.com/LaCAfe/LIWC2015pt).  
-    - The dictionary file itself is not included in this repository. Users must download it from the official source and update the path in the code.  
-  - [SAGE] for sparse additive generative modeling
-
+  - [LIWC](https://github.com/LaCAfe/LIWC2015pt) for psychological and stylistic categories  
+    - This project uses the LIWC2015 Portuguese dictionary.  
+    - The dictionary file itself is **not included** in this repository. Users must download it from the official source and update the path in the code.   
+  - [SAGE](https://github.com/jacobeisenstein/SAGE/tree/master/py-sage) for sparse additive generative modeling  
+    - For theoretical background, see [Eisenstein, Ahmed & Xing (2011)](https://www.cs.cmu.edu/~epxing/papers/2011/Eisenstein_Ahmed_Xing_ICML11.pdf).  
 
 - **Detection Evaluation**:  
-  - Tested a pre-trained misinformation classifier on both human and AI-generated content.
-    - This work evaluates the best-performing misinformation detection model proposed by 
+  - This work evaluates the best-performing misinformation detection model proposed by 
     [Afonso & Rosas (2024)](https://github.com/ro-afonso/fake-news-pt-eu), based on an XGBoost classifier.  
+  - The model, originally trained on the *fake-news-pt-eu* dataset, was applied to both human-written and LLM-generated texts to assess its ability to detect AI-generated misinformation.  
 
 ---
 
