@@ -36,6 +36,8 @@ It combines advanced linguistic analysis techniques (LIWC, SAGE) and evaluates t
 
 - **Detection Evaluation**:  
   - Tested a pre-trained misinformation classifier on both human and AI-generated content.
+    - This work evaluates the best-performing misinformation detection model proposed by 
+    [Afonso & Rosas (2024)](https://github.com/ro-afonso/fake-news-pt-eu), based on an XGBoost classifier.  
 
 ---
 
