@@ -31,8 +31,9 @@ It combines advanced linguistic analysis techniques (LIWC, SAGE) and evaluates t
   - [LIWC](https://github.com/LaCAfe/LIWC2015pt) for psychological and stylistic categories  
     - This project uses the LIWC2015 Portuguese dictionary.  
     - The dictionary file itself is **not included** in this repository. Users must download it from the official source and update the path in the code.   
-  - [SAGE](https://github.com/jacobeisenstein/SAGE/tree/master/py-sage) for sparse additive generative modeling  
-    - For theoretical background, see [Eisenstein, Ahmed & Xing (2011)](https://www.cs.cmu.edu/~epxing/papers/2011/Eisenstein_Ahmed_Xing_ICML11.pdf).  
+  - [SAGE](https://github.com/jacobeisenstein/SAGE/tree/master/py-sage) for sparse additive generative modeling
+    - It is not available via pip, so dependencies must be installed manually. 
+    - For theoretical background, see [Eisenstein, Ahmed & Xing (2011)](https://www.cs.cmu.edu/~epxing/papers/2011/Eisenstein_Ahmed_Xing_ICML11.pdf).
 
 - **Detection Evaluation**:  
   - This work evaluates the best-performing misinformation detection model proposed by 
